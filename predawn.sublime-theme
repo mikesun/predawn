@@ -80,7 +80,7 @@
     {
         "class": "tab_label",
         "fade": false,
-        "fg": [144, 146, 147],
+        "fg": [145, 145, 145],
         "font.bold" : false,
         "font.size" : 11
     },
@@ -347,7 +347,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [241, 130, 96, 10]
+        "viewport_color": [241, 241, 241, 10]
     },
 
         //
@@ -357,7 +357,7 @@
         // General labels
     {
         "class": "label_control",
-        "color": [201, 202, 203],
+        "color": [200, 200, 200],
         "font.bold" : true,
         "font.size" : 11
     },
@@ -366,7 +366,7 @@
         "class": "label_control",
         "parents": [{"class": "panel_control"}],
         "font.bold" : false,
-        "font.size": 13
+        "font.size": 11
     },
     {
         "class": "label_control",
@@ -436,20 +436,20 @@
 
     {
         "class": "sidebar_container",
-        "layer0.tint": [51, 51, 51],
+        "layer0.tint": [40, 41, 43],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": 0,
-        "content_margin": [0, 15, 0, 0]
+        "content_margin": [0, 0, 0, 0]
     },
         // Sidebar tree
     {
         "class": "sidebar_tree",
         "row_padding": [20, 5],
-        "indent": 20,
-        "indent_offset": 18,
+        "indent": 10,
+        "indent_offset": 0,
         "indent_top_level": false,
-        "layer0.tint": [51, 51, 51],
+        "layer0.tint": [40, 41, 43],
         "layer0.opacity": 1.0
     },
     {
@@ -481,8 +481,8 @@
         // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "Predawn/assets/sidebar-row-selected.png",
-        "layer0.opacity": 0
+        "layer0.tint": [40, 41, 43],
+        "layer0.opacity": 1.0
     },
         // Sidebar row selected
     {
@@ -493,12 +493,12 @@
         // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [120, 120, 120],
-        "font.bold": true
+        "color": [40, 41, 43]
     },
         // Sidebar entry
     {
         "class": "sidebar_label",
+        "font.size": 11,
         "color": [140, 140, 140]
     },
         // Sidebar folder entry
@@ -557,51 +557,20 @@
         "layer1.opacity": 0
     },
 
-        // Hides Expand Arrow
-
+        // Sidebar Expand Arrows
     {
         "class": "icon_folder",
         "content_margin": [0, 0],
-        "layer0.opacity": 0
+        "layer0.opacity": 1.0
     },
 
-        // Replaces Default Folder Icons
-
-    {
-        "class": "disclosure_button_control",
-        "content_margin": [8, 8],
-        "layer0.texture": "Predawn/assets/folder.png",
-        "layer1.texture": "Predawn/assets/folder_open.png",
-        "layer0.opacity": 1.0,
-        "layer1.opacity": 0
-    },
-
-        // Sidebar file close hover
-
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "layer0.opacity": 0,
-        "layer1.opacity": 1.0
-    },
 
         // Sidebar file icons
-
     {
         "class": "icon_file_type",
         // layer0.texture is filled in by code with the relevant icon name
         "layer0.opacity": 0.3,
-        "content_margin": [8, 8]
-    },
-    {
-        "class": "icon_file_type",
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.opacity": 1.0
-    },
-    {
-        "class": "icon_file_type",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.opacity": 1.0
+        "content_margin": [0, 0]
     },
 
         //
@@ -677,8 +646,8 @@
     {
         "class": "quick_panel",
         "row_padding": [10, 10],
-        "layer0.tint": [60, 60, 60],
-        "layer0.opacity": 1.0
+        "layer0.tint": [60, 60, 62],
+        "layer0.opacity": 0.0
     },
     {
         "class": "quick_panel_row",
@@ -694,20 +663,20 @@
     {
         "class": "quick_panel_label",
         "fg": [120, 120, 120],
-        "match_fg": [241, 130, 96],
+        "match_fg": [145, 145, 145],
         "selected_fg": [255, 255, 255, 255],
         "selected_match_fg": [255, 255, 255]
     },
     {
         "class": "quick_panel_path_label",
         "fg": [75, 75, 75],
-        "match_fg": [241, 130, 96],
+        "match_fg": [145, 145, 145],
         "selected_fg": [255, 255, 255, 255],
         "selected_match_fg": [255, 255, 255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [241, 130, 96],
+        "fg": [145, 145, 145],
         "selected_fg": [255, 255, 255]
     },
 
@@ -744,10 +713,10 @@
         "class": "auto_complete_label",
         "fg": [140, 140, 140],
         "match_fg": [255, 255, 255],
-        "bg": [26, 26, 26],
+        "bg": [26, 27, 29],
         "selected_fg": [255, 255, 255],
         "selected_match_fg": [255, 255, 255],
-        "selected_bg": [85, 85, 85]
+        "selected_bg": [85, 86, 88]
     },
     {
         "class": "table_row",
