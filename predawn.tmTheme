@@ -13,9 +13,9 @@
     <key>gutterSettings</key>
     <dict>
         <key>background</key>
-        <string>#39393b</string>
+        <string>#38383a</string>
         <key>divider</key>
-        <string>#39393b</string>
+        <string>#38383a</string>
         <key>foreground</key>
         <string>#696971</string>
         <key>selectionBackground</key>
@@ -29,7 +29,7 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#2d2e30</string>
+                <string>#2b2c2e</string>
                 <key>caret</key>
                 <string>#d0d0d0</string>
                 <key>foreground</key>
